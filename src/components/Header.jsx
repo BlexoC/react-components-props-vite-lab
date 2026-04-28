@@ -1,9 +1,9 @@
 import React from "react";
 
-const Header = (prop) =>{
+const Header = ({name}) =>{
     return (<>
         <header>
-        <h1>{prompt.name}</h1>
+        <h1>{name}</h1>
         </header>
         </>
     )

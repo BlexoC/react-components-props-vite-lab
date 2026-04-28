@@ -1,18 +1,19 @@
 import React from "react";
 
-const ArticleList = (prop) =>{
-    return (<>
+const Article =['date', 'title', 'date']
+
+function ArticleList ({posts}){
+    return (
         <main>
-           {prop.map(article => (
+           {posts.map(article => (
 
             <Article
-                preview={prop.preview}
-                date={prop.date}
-                title={prop.title}
-            />
+            key={posts}
+             />
+
+            
            ))}
         </main>
-     </>
     )
 
 }
