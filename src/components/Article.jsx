@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function getReadIndicator(minutes) {
   if (minutes < 30) {
     const cups = Math.ceil(minutes / 5);
